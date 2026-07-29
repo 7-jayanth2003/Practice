@@ -1,0 +1,5 @@
+dna = input("enter dna :")
+
+rna = "".join(["U" if nucleotide == "T" else nucleotide for nucleotide in dna])
+
+print(rna)
