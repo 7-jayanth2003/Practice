@@ -1,0 +1,6 @@
+#Method 1 
+
+dna = input("enter dna: ")
+rna = dna.replace("T", "U")
+print(rna)
+
