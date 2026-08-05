@@ -1,0 +1,4 @@
+dna = "AAAACCCGGT"
+complement = dna.translate(str.maketrans("ATCG","TAGC"))
+reverse_complement = complement [::-1]
+print(reverse_complement)
